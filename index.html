@@ -105,7 +105,7 @@
                 You are an expert news summarizer and media analyst specialized in expat-relevant content. Given the URL below, perform the following tasks in Turkish and respond in a structured JSON format:
                 1. Generate a concise title for the article, no more than 6-7 words.
                 2. Write a concise summary of the article in 3 sentences, focusing on key takeaways for Turkish expats.
-                3. Categorize the article into one of the following categories: 'Siyaset', 'Politika', 'Dünya Gündemi', 'Avrupa Gündemi', 'Ekonomi', 'Expat', 'Diğer'.
+                3. Categorize the article into one of the following categories: 'Siyaset', 'Politika', 'Günlük Yaşam', 'Diğer'.
                 4. Rate the value of the article for Turkish expats on a scale of 1-10.
                 5. Explain the reason for this rating in one sentence.
                 The link is: ${url}
@@ -190,7 +190,7 @@
                 
                 summaryOutput.classList.remove('hidden');
 
-            } catch (error) { 
+            } catch (error) {
                 console.error("Hata:", error);
                 showError("Analiz oluşturulurken bir hata oluştu. Lütfen URL'yi kontrol edin veya daha sonra tekrar deneyin.");
             } finally {
@@ -209,8 +209,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
